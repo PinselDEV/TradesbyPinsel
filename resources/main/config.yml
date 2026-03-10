@@ -1,0 +1,7 @@
+max-price: 1000000
+expire-days: 5
+market-page-size: 45
+expire-check-minutes: 60
+allowed-worlds:
+  - OneBlock
+  - OB-Lobby

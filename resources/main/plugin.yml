@@ -1,0 +1,17 @@
+name: TradesByPinsel
+version: 1.0.0
+main: de.pinsel.tradesbypinsel.TradesByPinselPlugin
+api-version: '1.21'
+depend: [Vault]
+softdepend: [Essentials]
+
+commands:
+  trade:
+    description: Öffnet den Trade-Shop
+    usage: /trade
+
+permissions:
+  tradesbypinsel.use:
+    default: true
+  tradesbypinsel.admin:
+    default: op
